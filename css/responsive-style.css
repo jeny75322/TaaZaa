@@ -1,0 +1,119 @@
+/* Media Query 1170px */
+@media (max-width:1170px) {
+
+    /* General CSS */
+    .section-subtitle {
+        max-width: 60%;
+    }
+
+    /* 01 Navbar CSS */
+    .header .navbar {
+        background-size: cover;
+        padding: 20px;
+    }
+
+    .header .navbar-nav {
+        margin-top: 20px;
+    }
+
+    .header .navbar-nav .nav-link {
+        padding: 2px 5px;
+        margin-bottom: 10px;
+    }
+
+    .header .header_right span {
+        padding: 2px 5px;
+    }
+
+    /* 02 Banner Section */
+    .banner_section .carousel-item {
+        height: 90vh;
+    }
+}
+
+/* Media Query 991px */
+@media (max-width:991px) {
+
+    /* 01 Navbar CSS */
+    .header .navbar {
+        background-size: cover;
+        padding: 10px 20px;
+    }
+
+    .header .navbar-nav {
+        margin-top: 20px;
+    }
+
+    .header .navbar-nav .nav-link {
+        padding: 2px 5px;
+        margin-bottom: 10px;
+    }
+
+    .header .header_right span {
+        padding: 2px 5px;
+    }
+
+
+    /* General CSS */
+    .about .banner_section,
+    .product .banner_section,
+    .Gallery .banner_section,
+    .contact .banner_section {
+        padding-top: 125px;
+        padding-bottom: 30px;
+    }
+}
+
+/* Media Query 767px */
+@media (max-width:767px) {
+
+    /* General CSS */
+    body,
+    html {
+        font-size: 8px;
+    }
+
+    .section-subtitle {
+        max-width: 80%;
+    }
+
+    /* 02 Banner Section */
+    .banner_section {
+        min-height: 70vh;
+    }
+
+    .banner_section .carousel-item {
+        height: 70vh;
+    }
+}
+
+/* Media Query 590px */
+@media (max-width:590px) {
+
+    /* General CSS */
+    body,
+    html {
+        font-size: 7px;
+    }
+}
+
+
+
+@media only screen and (max-width: 575px) {
+    .back-to-top {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .back-to-top.show {
+        bottom: 10px;
+        right: 10px;
+    }
+    .back-to-top.show:hover {
+        bottom: 10px;
+    }
+    .arrow {
+        top: 27%;
+        left: 37%;
+    }
+}
